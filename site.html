@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>yao_studio|Accueil-site officiel</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="shortcut icon" href="imgs/camera.png" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div id="entete">
+            <div id="menu">
+                <img src="imgs/menu1.png" alt="hambrg" width="80px" height="60px">
+            </div>
+            <nav>
+                <ul id="list">
+                    <a href="site.html">Acceuil</a>
+                    <a href="#srvc">Nos services</a>
+                    <a href="#galerie">Galerie</a>
+                    <a href="#contact">Nous-contactez</a>
+                </ul>
+            </nav>
+
+        </div>
+        <hr>
+        <div id="general">
+            <div id="ctnt-text">
+                <h3>Bienvenue sur la page officielle de</h3>
+                <h1><span>Yao</span>Studio</h1>
+                <h2>le studio de photo qui vous accompagne dans pour tous vos évenements.</h2>
+                <div id="button">
+                    <button> <a href="#galerie">Explorer</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="services" id="srvc">
+        <div class=" box evenements">
+            <h2>évènements</h2>
+        </div>
+        <div class=" box Shooting">
+            <h2>Shooting professionnel</h2>
+        </div>
+        <div class=" box photo-produit">
+            <h2>Photo produit</h2>
+        </div>
+    </div>
+    <div id="galerie">
+        <h1>Galerie</h1>
+        <div id="slides">
+            <img src="imgs/2.jpg" alt="" class="show" width="100%" height="auto" id="slider">
+            <img src="imgs/3.jpg" alt="" width="100%" height="auto" id="slider">
+            <img src="imgs/4.jpg" alt="" width="100%" height="auto" id="slider">
+            <img src="imgs/5.jpg" alt="" width="100%" height="auto" id="slider">
+            <img src="imgs/03.jpg" alt="" width="100%" height="auto" id="slider">
+        </div>
+        <div class="flch">
+            <img src="imgs/left.png" alt="gauche" width="45em" height="auto" class="left">
+            <img src="imgs/right.png" alt="doite" width="45em" height="auto" class="right">
+        </div>
+    </div>
+    <div id="contact">
+        <div class="form">
+            <form action="" method="post">
+                <div class="fullname">
+                    <div class="name">
+                        <label for="name">votre nom</label>
+                        <br>
+                        <input type="text" placeholder="votre nom">
+                    </div>
+                    <div class="firstname">
+                        <label for="prenom">votre prénom</label>
+                        <br>
+                        <input type="text" placeholder="votre prénom">
+                    </div>
+                </div>
+                <label for="email">votre email</label>
+                <br>
+                <input type="text" placeholder="votre email" class="email">
+                <br>
+                <label for="number">votre numéro</label>
+                <br>
+                <input type="text" placeholder="votre numéro" class="number">
+                <div class="message">
+                    <label for="msg" class="msg"> laissez votre message</label>
+                    <br>
+                    <textarea name="message" id="msg" cols="30" rows="10"></textarea>
+                </div>
+                <div id="send">
+                    <button><a href="mailto:#">Envoyer!</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="icon">
+            <a href="#general"><img src="svg/home.svg" alt="Acceuil" width="25em" height="25em"></a>
+            <a href="#srvc"><img src="svg/banque.svg" alt="services-photographie" width="25em" height="25em"></a>
+            <a href="#galerie"><img src="svg/galerie.svg" alt="galerie-photo" width="25em" height="25em"></a>
+            <a href="#contact"><img src="svg/headset.svg" alt="Constact" width="25em" height="25em"></a>
+        </div>
+        <hr>
+        <p> © 2022 YaoStudio | All rights reserved </p>
+    </div>
+    <script src="site.js"></script>
+    <script src="menu.js"></script>
+</body>
+
+</html>
